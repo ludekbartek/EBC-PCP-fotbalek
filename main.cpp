@@ -13,6 +13,7 @@
 
 int main() {
     std::time(nullptr);
+    //Nepatri slova spis do Game.h nez do main?
     std::vector<std::string> testDictionary = {"auto", "okno", "okurka", "ananas", "strom"};
     Dictionary * dictionary = new Dictionary(testDictionary);
     Game * game = new Game(dictionary);
