@@ -4,6 +4,7 @@
 //
 //  Created by Jakub Sadílek on 22.09.2026.
 //
+//Nazvy makrodefinic by mely byt UPPER_CASE
 #ifndef dictionary_hpp
 #define dictionary_hpp
 
@@ -11,6 +12,7 @@
 #include <vector>
 
 class Dictionary {
+//atributy by mely byt private
     std::vector<std::string> m_dictionary;
     std::vector<std::string> m_used_words;
     bool checkWordFollows(std::string previousWord,std::string currentWord);
