@@ -11,6 +11,7 @@
 #include <vector>
 
 class Dictionary {
+// Nemely by atributy byt spis private? Takhle muze jejich hodnoty modifikovat i nekdo jiny nez autor.
     std::vector<std::string> m_dictionary;
     std::vector<std::string> m_used_words;
     bool checkWordFollows(std::string previousWord,std::string currentWord);
